@@ -1,0 +1,51 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/dtan/catkin_ws/src/robot_model_gazebo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2e3e9/fast && /usr/bin/make -f CMakeFiles/cmTC_2e3e9.dir/build.make CMakeFiles/cmTC_2e3e9.dir/build
+make[1]: Entering directory '/home/dtan/catkin_ws/src/robot_model_gazebo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e3e9.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_2e3e9.dir/testCCompiler.c.o   -c /home/dtan/catkin_ws/src/robot_model_gazebo/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_2e3e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e3e9.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_2e3e9.dir/testCCompiler.c.o  -o cmTC_2e3e9 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+make[1]: *** [CMakeFiles/cmTC_2e3e9.dir/build.make:87: cmTC_2e3e9] Error 1
+make[1]: Leaving directory '/home/dtan/catkin_ws/src/robot_model_gazebo/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_2e3e9/fast] Error 2
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/dtan/catkin_ws/src/robot_model_gazebo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6ebb2/fast && /usr/bin/make -f CMakeFiles/cmTC_6ebb2.dir/build.make CMakeFiles/cmTC_6ebb2.dir/build
+make[1]: Entering directory '/home/dtan/catkin_ws/src/robot_model_gazebo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ebb2.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_6ebb2.dir/testCCompiler.c.o   -c /home/dtan/catkin_ws/src/robot_model_gazebo/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_6ebb2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ebb2.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_6ebb2.dir/testCCompiler.c.o  -o cmTC_6ebb2 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+make[1]: *** [CMakeFiles/cmTC_6ebb2.dir/build.make:87: cmTC_6ebb2] Error 1
+make[1]: Leaving directory '/home/dtan/catkin_ws/src/robot_model_gazebo/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6ebb2/fast] Error 2
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/dtan/catkin_ws/src/robot_model_gazebo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_22c78/fast && /usr/bin/make -f CMakeFiles/cmTC_22c78.dir/build.make CMakeFiles/cmTC_22c78.dir/build
+make[1]: Entering directory '/home/dtan/catkin_ws/src/robot_model_gazebo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22c78.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_22c78.dir/testCCompiler.c.o   -c /home/dtan/catkin_ws/src/robot_model_gazebo/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_22c78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22c78.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_22c78.dir/testCCompiler.c.o  -o cmTC_22c78 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+make[1]: *** [CMakeFiles/cmTC_22c78.dir/build.make:87: cmTC_22c78] Error 1
+make[1]: Leaving directory '/home/dtan/catkin_ws/src/robot_model_gazebo/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_22c78/fast] Error 2
+
+
+

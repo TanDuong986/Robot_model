@@ -8,24 +8,24 @@
 
 	<!-- KINECT ATTACHMENT -->
 	<xacro:include filename="$(find robot_model_gazebo)/urdf/sensors/kinect.xacro"/>
-	<kinect_sensor parent="kinect_base_link">
+	<xacro:kinect_sensor parent="kinect_base_link">
 		<!--origin xyz="0 0 0" rpy="0 0 0" /-->
-	</kinect_sensor>
+	</xacro:kinect_sensor>
 	
 	<!-- LASER ATTACHMENT -->
 	<xacro:include filename="$(find robot_model_gazebo)/urdf/sensors/hokuyo.xacro"/>
-	<hokuyo_sensor parent="upper_base_link">
+	<xacro:hokuyo_sensor parent="upper_base_link">
 		<!--origin xyz="0 0 0" rpy="0 0 0" /-->
-	</hokuyo_sensor>
+	</xacro:hokuyo_sensor>
 	
 	<!-- Import all Gazebo-customization elements, including Gazebo colors, sensors, controller -->
   	<xacro:include filename="$(find robot_model_gazebo)/urdf/robot_model_gazebo.gazebo" />
 	
 	<!-- Add view camera - working -->
 	<xacro:include filename="$(find robot_model_gazebo)/urdf/sensors/view_camera.xacro" />
-	<view_camera_sensor parent="kinect_base_link">
+	<xacro:view_camera_sensor parent="kinect_base_link">
 		<!--origin xyz="0 0 0" rpy="0 0 0" /-->
-	</view_camera_sensor>	
+	</xacro:view_camera_sensor>	
 	
 	
 	<xacro:property name="length_wheel" value="0.075" />

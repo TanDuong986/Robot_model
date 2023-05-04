@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/dtan/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/dtan/catkin_ws/src/beginner_tutorials/include/**",
+        "/home/dtan/catkin_ws/src/learning_tf/include/**",
+        "/home/dtan/catkin_ws/src/location_monitor/include/**",
+        "/home/dtan/catkin_ws/src/r2d2/include/**",
+        "/home/dtan/catkin_ws/src/tbot/include/**",
+        "/home/dtan/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
